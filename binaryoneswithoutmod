@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    int n,t,c=0;
+    scanf("%d",&n);
+    t=n;
+    while(t>0){
+        if((t-(t/2)*2)==1){
+            c++;
+        }
+        t=t/2;
+    }
+    printf("%d",c);
+}
